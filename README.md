@@ -1,207 +1,96 @@
 # Awesome-Team-Workspace-Knowledge-Base
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Topics](https://img.shields.io/badge/topics-knowledge--base%20%7C%20wiki%20%7C%20workspace-blue.svg)](https://github.com/ishandutta2007/Awesome-Team-Workspace-Knowledge-Base)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+> A curated list of leading **Team Workspaces, Knowledge Bases, Collaborative Wikis, and Documentation Hubs**. Discover top SaaS solutions and self-hosted open-source alternatives to eliminate documentation silos and streamline team collaboration.
+
 ## Top Team Workspace & Knowledge Base Ecosystem
 
-
-
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
 *Focused on Collaborative Wikis, Documentation Platforms & Self-Hosted Knowledge Bases*  
 
 **Last updated: October 2026**
 
-
-
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Team Workspace & Knowledge Base**. These tools enable teams to capture, organize, and share institutional knowledge—from meeting notes and process documentation to product specs and onboarding guides—reducing information silos and keeping everyone aligned on a single source of truth.
 
+**Examples** include Microsoft SharePoint, Confluence (Atlassian), Notion, ClickUp Docs, Basecamp, Coda, Guru, Slab, Slite, and Nuclino.
 
-
-**Examples** include Confluence, Notion, Slite, Coda, Slab, Nuclino, Guru, ClickUp Docs, Basecamp, and Microsoft SharePoint (the category leaders).
-
-
-
-**Open-source emphasis**: Team Workspace & Knowledge Base is a domain where open-source tooling is **mature and genuinely competitive for core documentation workflows**. **Docmost** stands out as the most direct open-source Confluence/Notion alternative—AGPL-3.0, with real-time collaboration, diagrams (Draw.io, Excalidraw, Mermaid), spaces, permissions, comments, page history, search, and file attachments . **Outline** provides a polished, Notion-like wiki with a mature editor and API ecosystem . **BookStack** offers an opinionated, structured documentation platform (books/chapters/pages) built on PHP/Laravel, praised for its intuitive out-of-the-box experience . **AFFiNE** combines block documents with an infinite canvas (Notion + Miro style) for teams wanting spatial organization . **Wiki.js** provides a lightweight, Git-backed wiki for developer-centric workflows . The critical caveat: **enterprise-grade permissions, audit trails, and SSO** are often where open-source tools require more configuration than commercial platforms—Docmost reserves some enterprise features for its paid edition , and self-hosting means you own upgrades, backups, and uptime.
-
-
+**Open-source emphasis**: Team Workspace & Knowledge Base is a domain where open-source tooling is **mature and genuinely competitive for core documentation workflows**. **AppFlowy** and **AFFiNE** lead as visual and block-based Notion alternatives with canvas capabilities. **Outline** provides a polished, Notion-like wiki with a mature editor and API ecosystem. **Wiki.js** offers a developer-centric wiki with multi-database support. **Docmost** stands out as an open-source Confluence/Notion alternative with real-time collaboration, diagrams (Draw.io, Excalidraw, Mermaid), spaces, and permissions. **BookStack** provides an opinionated, structured documentation hierarchy (books/chapters/pages) built on PHP/Laravel. The critical caveat: **enterprise-grade permissions, audit trails, and SSO** are often where open-source tools require self-hosted management and maintenance, whereas commercial platforms deliver turnkey enterprise governance.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Confluence](https://www.atlassian.com/software/confluence)**  
-
-  Atlassian's team workspace and documentation platform with strong Jira integration; widely adopted in enterprises but users note it requires effort to maintain organization and can become messy at scale.
-
-
-
-- **[Notion](https://www.notion.com/)**  
-
-  All-in-one workspace combining wikis, docs, databases, and project management with flexible block-based pages and a large template ecosystem.
-
-
-
-- **[Slite](https://slite.com/)**  
-
-  AI-powered knowledge base with doc verification workflows, agentic search, and MCP/API access; positioned as a "memory layer" for AI-native teams.
-
-
-
-- **[Coda](https://coda.io/)**  
-
-  Document-tool hybrid combining docs, spreadsheets, and apps in a single canvas; strong for teams wanting custom workflows without separate tools.
-
-
-
-- **[Slab](https://slab.com/)**  
-
-  Knowledge base and team wiki with a clean editor and Chrome extension for quick access; positioned as a simpler alternative to Confluence.
-
-
-
-- **[Nuclino](https://www.nuclino.com/)**  
-
-  Lightweight team collaboration and knowledge base tool with a visual, list-based structure; focused on simplicity over deep hierarchy.
-
-
-
-- **[Guru](https://www.getguru.com/)**  
-
-  AI-powered knowledge management with verified "Cards" for quick answers, contextual help integrations (browser extension, Slack), and strong search.
-
-
-
-- **[ClickUp Docs](https://clickup.com/features/docs)**  
-
-  Document and wiki capabilities within ClickUp's all-in-one productivity platform; integrates docs directly with tasks and projects.
-
-
-
-- **[Basecamp](https://basecamp.com/)**  
-
-  Project management and team communication tool with message boards, to-do lists, schedules, and file storage in a simple, opinionated interface.
-
-
-
-- **[Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)**  
-
-  Enterprise collaboration and document management platform within Microsoft 365; deep integration with Office apps and Teams, but often perceived as complex to configure.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Confluence / Notion Alternatives (Collaborative Wikis)
-
-
-
-- **[Docmost](https://github.com/docmost/docmost)**  
-
-  The most direct open-source **Confluence and Notion alternative** (AGPL-3.0, ~16k GitHub stars) . Features: **real-time collaboration**, diagrams (Draw.io, Excalidraw, Mermaid), spaces, **permissions management**, groups, comments, page history, search, file attachments, embeds (Airtable, Loom, Miro), and 10+ language translations . **Enterprise features** (in `packages/ee`) are under a separate commercial license . Docker-deployable with PostgreSQL and Redis. **Best for teams wanting a modern, collaborative wiki that feels like Confluence/Notion**—but check whether the enterprise features you need require the paid edition.
-
-
-
-- **[Outline](https://github.com/outline/outline)**  
-
-  Polished self-hosted wiki (BSL 1.1, ~38k GitHub stars) with a Notion-like block editor and mature API/integration ecosystem . Recent releases add **OIDC logout**, **Slack-style emoji reactions**, table menu alignment options, and **MCP support for patch merging of links in table cells** . Requires external OIDC/SAML authentication (no built-in auth). **Best for teams with existing SSO infrastructure** who need programmatic access to wiki content and a refined editor experience.
-
-
-
-- **[Wiki.js](https://github.com/requarks/wiki)**  
-
-  Developer-focused wiki (AGPL-3.0, ~27k GitHub stars) built on Node.js, Git, and Markdown . **Note**: Wiki.js 2.5 dropped SQLite support—**PostgreSQL is now required** . Supports Git-backed content for version-controlled documentation. **Best for developer teams wanting Markdown-first, Git-friendly wikis**—but the setup requires a `config.yml` file and published Docker image (building from source is not recommended) .
-
-
-
-### Structured Documentation Platforms
-
-
-
-- **[BookStack](https://github.com/BookStackApp/BookStack)**  
-
-  Opinionated, structured documentation platform (MIT, ~18.7k GitHub stars) built with PHP/Laravel . Organizes content as **books → chapters → pages**, with a **"pleasant and simple out-of-the-box experience"** designed for users with only basic word-processing skills . **Note**: The project is now managed on **Codeberg**, not GitHub . Docker deployment available. **Best for non-technical teams wanting a clean, organized wiki** without DevOps overhead—but it is not designed as an extensible platform for purposes beyond documentation .
-
-
-
-### Knowledge Base + Canvas Hybrid
-
-
-
-- **[AFFiNE](https://github.com/toeverything/AFFiNE)**  
-
-  Next-gen knowledge base combining **block documents and infinite canvas** (Notion + Miro style), with planning, sorting, and creation in one tool (TypeScript, ~73k GitHub stars) . Features: **edgeless canvas** for sticky notes, shapes, and mind maps alongside docs; **AI-powered creation support** (writing, slides, summaries, mind maps) using API keys from various providers or local LLMs; **offline use and synchronization** via local storage . Docker-deployable with a provided `docker-compose.yml` and `.env` file . **Best for visual thinkers and teams wanting spatial knowledge organization**—but it is more of a knowledge OS than a traditional structured wiki.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **XWiki** — Open-source knowledge management platform positioned as a Confluence alternative; flexible, extensible, and vendor-neutral. When paired with OpenProject, provides a complete Atlassian replacement stack.
-
-- **HedgeDoc** — Real-time collaborative Markdown editor (AGPL-3.0); score 98/100 for digital sovereignty. **Documentation-focused**—not a full workspace, but excellent for Markdown-native teams.
-
-- **Documenso** — Open-source DocuSign alternative (not a wiki, but relevant for document workflows); self-hosted with real PDF signatures and audit trails . **Different use case**—included as a reference for self-hosted document infrastructure.
-
-
-
-**Frameworks for building custom systems**: For a **Confluence/Notion-like collaborative wiki**, Docmost provides the most direct open-source alternative with real-time collaboration and diagrams . For a **polished wiki with strong API and OIDC support**, Outline . For **structured, non-technical documentation**, BookStack . For **developer-centric Markdown/Git wikis**, Wiki.js (with PostgreSQL) . For **visual knowledge management with canvas**, AFFiNE . No open-source project matches the **full enterprise governance** (deep permissions, compliance certifications, managed SLAs) of Confluence or SharePoint out of the box—self-hosting means owning the operational responsibility.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Team workspace platforms handling internal documentation must comply with applicable data governance policies and access controls; **sensitive process documentation, credentials, or customer data should not be stored without proper permissions**.
-
-- **Open-source team workspaces are mature for core documentation**—Docmost, Outline, BookStack, and AFFiNE provide production-grade wikis with real-time collaboration and structured organization . However, **enterprise features** (advanced permissions, audit trails, compliance certifications) may be reserved for paid editions (e.g., Docmost Enterprise)  or require additional configuration. Organizations requiring turnkey enterprise governance should evaluate commercial platforms.
-
-- Verify license terms for commercial use; Docmost uses AGPL-3.0 for core with separate enterprise licensing , Outline uses BSL 1.1 , BookStack uses MIT , Wiki.js uses AGPL-3.0 , and AFFiNE is open-source (check repository) .
-
-
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global knowledge management and team collaboration software market is estimated at approximately **$30 billion to $35 billion in 2025–2026**, expanding at a 12–14% CAGR driven by remote/hybrid team operations and the rapid adoption of enterprise AI search and agentic memory layers. The sector is **moderately fragmented**: mega-cap enterprise suites like Microsoft 365 (SharePoint) and Atlassian (Confluence) control extensive legacy enterprise footprints, while nimble, product-led horizontal platforms (Notion, ClickUp, Coda) and AI-first knowledge hubs (Slite, Guru) aggressively capture fast-growing startups and digital-native businesses.
 
-**Made for documentation teams, engineering leads, knowledge managers, and organizations choosing their wiki platform.**  
+---
 
-Let's make team knowledge bases more open, but with clear eyes about the enterprise governance and operational responsibility that self-hosting requires.
+## SaaS/Hosted Platforms
+
+The table below compares the category leaders, sorted descending by company scale (market capitalization or latest enterprise valuation).
+
+| Platform | Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Description & Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)** | **~$3.1 Trillion** (Market Cap) | $5.00/user/month (SharePoint Plan 1) | No permanent free plan; 30-day free trial of Microsoft 365 Business Basic (up to 25 user licenses with 1 TB cloud storage per user) | Enterprise collaboration and document management powerhouse within Microsoft 365; deep Office/Teams synergy, advanced compliance, and intranet portals. |
+| **[Confluence](https://www.atlassian.com/software/confluence)** (Atlassian) | **~$45 Billion** (Market Cap) | $6.05/user/month (Standard plan) | Free forever for up to 10 users with 2 GB total file storage, unlimited spaces, and community support | Atlassian's industry-standard team workspace and documentation platform; deep Jira integration, rich page templates, and granular access controls. |
+| **[Notion](https://www.notion.com/)** | **~$10 Billion** (Valuation) | $10.00/user/month ($8/user/mo billed annually - Plus plan) | Free forever for individuals with up to 10 guest collaborators, unlimited pages/blocks for personal use (limited block trial for 2+ members), and 5 MB file upload cap | Highly flexible all-in-one workspace uniting wikis, docs, relational databases, and task boards with extensive template systems and AI assistant capabilities. |
+| **[ClickUp Docs](https://clickup.com/features/docs)** | **~$4 Billion** (Valuation) | $10.00/user/month ($7/user/mo billed annually - Unlimited plan) | Free forever with 100 MB storage limit, unlimited members, unlimited docs, and collaborative editing (feature-capped after 100 uses on advanced views) | Unified workspace embedding wikis and documentation directly alongside sprint tasks, milestones, custom fields, and real-time collaboration. |
+| **[Coda](https://coda.io/)** | **~$1.4 Billion** (Valuation) | $12.00/Doc Maker/month ($10/Doc Maker/mo billed annually - Pro plan; Editors and viewers are free) | Free forever with unmetered Doc Makers, up to 50 objects per doc, 500 rows per table, and 10 MB total document size | Document-spreadsheet-app hybrid that transforms team wikis into interactive internal tools and automated workflows without dedicated programming. |
+| **[Guru](https://www.getguru.com/)** | **~$600 Million** (Valuation) | $18.00/user/month ($15/user/mo billed annually - All-in-One plan) | Free forever for up to 3 users with core verified knowledge cards, web app & browser extension; 30-day unlimited trial for larger teams | AI-driven enterprise search and verified knowledge management system delivering contextual knowledge directly into browser extensions, Slack, and Zendesk. |
+| **[Basecamp](https://basecamp.com/)** | **~$100 Million** (ARR scale) | $15.00/user/month (Basecamp standard; or $299/month flat for unlimited users on Basecamp Pro Unlimited) | No permanent free plan; 30-day fully functional free trial with unlimited users, projects, and message boards (no credit card required) | Opinionated, clutter-free project communication and team hub featuring message boards, campfire chats, to-do lists, docs, and scheduling in one simple interface. |
+| **[Slab](https://slab.com/)** | **~$40 Million** (Valuation) | $8.00/user/month ($6.67/user/mo billed annually - Startup plan) | Free forever for up to 10 users with 90-day search history limit and 10 MB file upload limit | Streamlined knowledge base and team wiki with a focused real-time block editor, unified search across external tools, and intuitive topic hierarchies. |
+| **[Slite](https://slite.com/)** | **~$25 Million** (Valuation) | $10.00/user/month ($8/user/mo billed annually - Standard plan) | Free forever for up to 50 docs with unlimited members, 1 team space, and 100 MB file storage | Modern AI-centric knowledge base equipped with document verification cadences, agentic search, and automated formatting for fast-moving teams. |
+| **[Nuclino](https://www.nuclino.com/)** | **~$15 Million** (Valuation) | $6.00/user/month ($5/user/mo billed annually - Standard plan) | Free forever for up to 50 items/docs and 2 GB total storage with unlimited team members | Fast, lightweight collaborative workspace prioritizing instant search, graph visualization, and intuitive hierarchical page structures. |
+
+---
+
+## Open-Source GitHub Projects
+
+Explore the most popular self-hosted, privacy-first, and community-driven knowledge base alternatives. Entries are sorted descending by GitHub star counts.
+
+| Repository | GitHub Stars | License | Primary Tech Stack | Description & Key Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AppFlowy](https://github.com/appflowy-io/appflowy)** | [![GitHub stars](https://img.shields.io/github/stars/appflowy-io/appflowy?style=social&color=white)](https://github.com/appflowy-io/appflowy/stargazers) | AGPL-3.0 | Flutter / Rust | Leading privacy-first open-source Notion alternative. Offers offline-first document editing, kanban boards, relational grids, and self-hosted synchronization. |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | TypeScript / Rust | Next-generation workspace fusing block documents, whiteboards, and infinite canvases (Notion + Miro hybrid) with multi-modal AI and local-first data sync. |
+| **[Logseq](https://github.com/logseq/logseq)** | [![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers) | AGPL-3.0 | ClojureScript / Rust | Privacy-first, local-first outliner and knowledge graph supporting Markdown and Org-mode, bi-directional linking, whiteboards, and PDF annotation. |
+| **[Outline](https://github.com/outline/outline)** | [![GitHub stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | BSL 1.1 | TypeScript / React / Node.js | Beautiful, fast collaborative wiki designed for growing teams. Features a clean Markdown-compatible block editor, enterprise SSO/OIDC integration, and rich APIs. |
+| **[Wiki.js](https://github.com/requarks/wiki)** | [![GitHub stars](https://img.shields.io/github/stars/requarks/wiki?style=social&color=white)](https://github.com/requarks/wiki/stargazers) | AGPL-3.0 | Node.js / Vue / PostgreSQL | Highly extensible modern wiki engine with modular authentication, multi-engine document rendering (Markdown, Visual, Code), and bi-directional Git sync. |
+| **[Docmost](https://github.com/docmost/docmost)** | [![GitHub stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers) | AGPL-3.0 | TypeScript / NestJS / Vue | Modern open-source Confluence and Notion alternative featuring real-time multiplayer collaboration, diagramming (Excalidraw, Draw.io, Mermaid), and space-level permissions. |
+| **[BookStack](https://github.com/BookStackApp/BookStack)** | [![GitHub stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers) | MIT | PHP / Laravel / MySQL | Opinionated, beginner-friendly documentation platform organized hierarchically into Shelves, Books, Chapters, and Pages with built-in authentication and revision history. |
+| **[HedgeDoc](https://github.com/hedgedoc/hedgedoc)** | [![GitHub stars](https://img.shields.io/github/stars/hedgedoc/hedgedoc?style=social&color=white)](https://github.com/hedgedoc/hedgedoc/stargazers) | AGPL-3.0 | TypeScript / Node.js | Real-time collaborative Markdown editor and presentation platform supporting live syntax previews, math typography, diagramming, and permissions. |
+| **[XWiki](https://github.com/xwiki/xwiki-platform)** | [![GitHub stars](https://img.shields.io/github/stars/xwiki/xwiki-platform?style=social&color=white)](https://github.com/xwiki/xwiki-platform/stargazers) | LGPL-2.1 | Java / JavaScript | Enterprise-grade extensible wiki and application platform providing structured data forms, fine-grained access rights, workflow extensions, and Confluence migration tools. |
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in `README.md` adhering to the table format and metadata requirements.
+3. Ensure all links point directly to official sites or repositories, and verify license terms and pricing tiers.
+4. Submit a Pull Request with a clear, concise description of your changes.
+
+---
+
+## Disclaimer
+
+- This list is community-curated for informational and architectural evaluation purposes; inclusion does not constitute commercial endorsement.
+- Verify software licensing terms before commercial self-hosting: AppFlowy and Docmost utilize AGPL-3.0 (with enterprise license models for commercial add-ons), Outline operates under BSL 1.1, and BookStack and AFFiNE use permissive MIT licenses.
+- When self-hosting organizational knowledge bases, maintain rigorous security controls, automated offsite database backups, SSO/MFA policies, and data retention configurations to safeguard internal documentation.
+
+---
+
+**Built for engineering leaders, knowledge managers, documentation specialists, and dev teams architecting seamless collaboration hubs.**
