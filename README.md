@@ -1,49 +1,62 @@
-# Awesome-Team-Workspace-Knowledge-Base
+# Awesome-Team-Workspace-Knowledge-Base 📚🚀
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tracked Topics](https://img.shields.io/badge/topics-knowledge--base%20%7C%20wiki%20%7C%20workspace-blue.svg)](https://github.com/ishandutta2007/Awesome-Team-Workspace-Knowledge-Base)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Team Workspace &amp; Knowledge Base" width="100%" />
+</p>
 
-> A curated list of leading **Team Workspaces, Knowledge Bases, Collaborative Wikis, and Documentation Hubs**. Discover top SaaS solutions and self-hosted open-source alternatives to eliminate documentation silos and streamline team collaboration.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Team-Workspace-Knowledge-Base"><img src="https://img.shields.io/badge/topics-knowledge--base%20%7C%20wiki%20%7C%20workspace-blue.svg" alt="Tracked Topics"/></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## Top Team Workspace & Knowledge Base Ecosystem
+> 🌟 A curated list of leading **Team Workspaces, Knowledge Bases, Collaborative Wikis, and Documentation Hubs**. Discover top SaaS solutions and self-hosted open-source alternatives to eliminate documentation silos and streamline team collaboration.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
+
+## 🧭 Top Team Workspace & Knowledge Base Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects** 📖⚡  
 *Focused on Collaborative Wikis, Documentation Platforms & Self-Hosted Knowledge Bases*  
 
-**Last updated: October 2026**
+**Last updated: October 2026** 📅
 
 This repository tracks notable **SaaS platforms** and **open-source projects** for **Team Workspace & Knowledge Base**. These tools enable teams to capture, organize, and share institutional knowledge—from meeting notes and process documentation to product specs and onboarding guides—reducing information silos and keeping everyone aligned on a single source of truth.
 
-**Examples** include Microsoft SharePoint, Confluence (Atlassian), Notion, ClickUp Docs, Basecamp, Coda, Guru, Slab, Slite, and Nuclino.
+🏆 **Examples** include Microsoft SharePoint, Confluence (Atlassian), Notion, ClickUp Docs, Basecamp, Coda, Guru, Slab, Slite, and Nuclino.
 
-**Open-source emphasis**: Team Workspace & Knowledge Base is a domain where open-source tooling is **mature and genuinely competitive for core documentation workflows**. **AppFlowy** and **AFFiNE** lead as visual and block-based Notion alternatives with canvas capabilities. **Outline** provides a polished, Notion-like wiki with a mature editor and API ecosystem. **Wiki.js** offers a developer-centric wiki with multi-database support. **Docmost** stands out as an open-source Confluence/Notion alternative with real-time collaboration, diagrams (Draw.io, Excalidraw, Mermaid), spaces, and permissions. **BookStack** provides an opinionated, structured documentation hierarchy (books/chapters/pages) built on PHP/Laravel. The critical caveat: **enterprise-grade permissions, audit trails, and SSO** are often where open-source tools require self-hosted management and maintenance, whereas commercial platforms deliver turnkey enterprise governance.
+💡 **Open-source emphasis**: Team Workspace & Knowledge Base is a domain where open-source tooling is **mature and genuinely competitive for core documentation workflows**. **AppFlowy** and **AFFiNE** lead as visual and block-based Notion alternatives with canvas capabilities. **Outline** provides a polished, Notion-like wiki with a mature editor and API ecosystem. **Wiki.js** offers a developer-centric wiki with multi-database support. **Docmost** stands out as an open-source Confluence/Notion alternative with real-time collaboration, diagrams (Draw.io, Excalidraw, Mermaid), spaces, and permissions. **BookStack** provides an opinionated, structured documentation hierarchy (books/chapters/pages) built on PHP/Laravel. The critical caveat: **enterprise-grade permissions, audit trails, and SSO** are often where open-source tools require self-hosted management and maintenance, whereas commercial platforms deliver turnkey enterprise governance.
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+🤝 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#star-history)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global knowledge management and team collaboration software market is estimated at approximately **$30 billion to $35 billion in 2025–2026**, expanding at a 12–14% CAGR driven by remote/hybrid team operations and the rapid adoption of enterprise AI search and agentic memory layers. The sector is **moderately fragmented**: mega-cap enterprise suites like Microsoft 365 (SharePoint) and Atlassian (Confluence) control extensive legacy enterprise footprints, while nimble, product-led horizontal platforms (Notion, ClickUp, Coda) and AI-first knowledge hubs (Slite, Guru) aggressively capture fast-growing startups and digital-native businesses.
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
-The table below compares the category leaders, sorted descending by company scale (market capitalization or latest enterprise valuation).
+The table below compares category leaders, sorted descending by company scale (market capitalization or latest enterprise valuation).
 
-| Platform | Scale (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Description & Key Capabilities |
+| 🏢 Platform | 💰 Scale (Valuation / Revenue) | 🏷️ Starting Tier Pricing | 🎁 Free Tier Limits | 📝 Description & Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)** | **~$3.1 Trillion** (Market Cap) | $5.00/user/month (SharePoint Plan 1) | No permanent free plan; 30-day free trial of Microsoft 365 Business Basic (up to 25 user licenses with 1 TB cloud storage per user) | Enterprise collaboration and document management powerhouse within Microsoft 365; deep Office/Teams synergy, advanced compliance, and intranet portals. |
 | **[Confluence](https://www.atlassian.com/software/confluence)** (Atlassian) | **~$45 Billion** (Market Cap) | $6.05/user/month (Standard plan) | Free forever for up to 10 users with 2 GB total file storage, unlimited spaces, and community support | Atlassian's industry-standard team workspace and documentation platform; deep Jira integration, rich page templates, and granular access controls. |
@@ -58,11 +71,11 @@ The table below compares the category leaders, sorted descending by company scal
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Explore the most popular self-hosted, privacy-first, and community-driven knowledge base alternatives. Entries are sorted descending by GitHub star counts.
 
-| Repository | GitHub Stars | License | Primary Tech Stack | Description & Key Strengths |
+| 📦 Repository | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 📌 Description & Key Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[AppFlowy](https://github.com/appflowy-io/appflowy)** | [![GitHub stars](https://img.shields.io/github/stars/appflowy-io/appflowy?style=social&color=white)](https://github.com/appflowy-io/appflowy/stargazers) | AGPL-3.0 | Flutter / Rust | Leading privacy-first open-source Notion alternative. Offers offline-first document editing, kanban boards, relational grids, and self-hosted synchronization. |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | TypeScript / Rust | Next-generation workspace fusing block documents, whiteboards, and infinite canvases (Notion + Miro hybrid) with multi-modal AI and local-first data sync. |
@@ -76,16 +89,32 @@ Explore the most popular self-hosted, privacy-first, and community-driven knowle
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Add or update entries in `README.md` adhering to the table format and metadata requirements.
-3. Ensure all links point directly to official sites or repositories, and verify license terms and pricing tiers.
-4. Submit a Pull Request with a clear, concise description of your changes.
+1. 🍴 Fork this repository.
+2. ✍️ Add or update entries in `README.md` adhering to the table format and metadata requirements.
+3. 🔗 Ensure all links point directly to official sites or repositories, and verify license terms and pricing tiers.
+4. 🚀 Submit a Pull Request with a clear, concise description of your changes.
 
 ---
 
-## Disclaimer
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Team-Workspace-Knowledge-Base&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Team-Workspace-Knowledge-Base&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for exploring this curated repository! If you find this resource valuable for benchmarking or architecting your team's knowledge management setup, please consider:
+
+- ⭐ **Starring** the repository to support visibility.
+- 🍴 **Forking** it to customize your team's internal evaluations.
+- 📢 **Sharing** with colleagues, engineering managers, and developer communities.
+- ☕ **Buying a coffee** to sponsor ongoing curation: [![Buy Me A Coffee](https://img.shields.io/badge/Sponsor-%E2%99%A5-pink?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer
 
 - This list is community-curated for informational and architectural evaluation purposes; inclusion does not constitute commercial endorsement.
 - Verify software licensing terms before commercial self-hosting: AppFlowy and Docmost utilize AGPL-3.0 (with enterprise license models for commercial add-ons), Outline operates under BSL 1.1, and BookStack and AFFiNE use permissive MIT licenses.
@@ -93,4 +122,4 @@ Explore the most popular self-hosted, privacy-first, and community-driven knowle
 
 ---
 
-**Built for engineering leaders, knowledge managers, documentation specialists, and dev teams architecting seamless collaboration hubs.**
+**Built with ❤️ for engineering leaders, knowledge managers, documentation specialists, and dev teams architecting seamless collaboration hubs.**
